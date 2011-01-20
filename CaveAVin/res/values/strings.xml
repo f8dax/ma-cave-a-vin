@@ -2,4 +2,5 @@
 <resources>
     <string name="hello">Hello World, CaveAVin!</string>
     <string name="app_name">Gestion de ma cave à vin</string>
+<string name="name">Nom</string>
 </resources>
