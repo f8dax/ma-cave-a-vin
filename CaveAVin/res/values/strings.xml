@@ -2,5 +2,8 @@
 <resources>
     <string name="hello">Hello World, CaveAVin!</string>
     <string name="app_name">Gestion de ma cave à vin</string>
-<string name="name">Nom</string>
+	<string name="name">Nom</string>
+	<string name="red">Rouge</string>
+	<string name="white">Blanc</string>
+	<string name="millelisme">Millélisme</string>
 </resources>

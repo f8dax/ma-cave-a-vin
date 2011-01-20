@@ -4,12 +4,30 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 	<TextView 
-		android:text="@+id/nameLabel" 
-		android:id="@string/name" 
+		android:id="@+id/nameLabel" 
+		android:text="@string/name" 
 		android:layout_width="wrap_content" 
 		android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/nametext"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"/>
+    <RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+      <RadioButton android:id="@+id/radio_vin_rouge"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/red" />
+      <RadioButton android:id="@+id/radio_vin_blanc"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/white" />
+    </RadioGroup>
+    <EditText
+        android:id="@+id/millelisme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/millelisme"/>
 </LinearLayout>
